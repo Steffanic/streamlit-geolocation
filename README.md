@@ -4,7 +4,7 @@ A geolocation button for streamlit
 ### Installation
 `pip install streamlit-geolocation`
 
-###Usage
+### Usage
 `from streamlit_geolocation import streamlit_geolocation`
 `location = streamlit_geolocation()`
 `print(location)`
