@@ -1,0 +1,10 @@
+.vscode/settings.json
+streamlit_geolocation/frontend/build/
+streamlit_geolocation/frontend/node_modules/
+dist/
+node_modules/
+streamlit_geolocation/__pycache__/
+build/
+streamlit_geolocation/frontend/package-lock.json
+streamlit_geolocation.egg-info/
+package-lock.json
