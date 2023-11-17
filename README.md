@@ -9,9 +9,11 @@ A geolocation button for streamlit
 
 `location = streamlit_geolocation()`
 
-`print(location)`
+`st.write(location)`
 
 `outputs: {'latitude': 35.9700706, 'longitude': -83.9184362, 'altitude': None, 'accuracy': 12.684, 'altitudeAccuracy': None, 'heading': None, 'speed': None}`
+
+Of course, at first it will output "No Location Info" until you press the button. 
 
 This uses the javascript method navigator.geolocation.getCurrentPosition to get the user's location. The response is a GeolocationCoordinates object.
 
