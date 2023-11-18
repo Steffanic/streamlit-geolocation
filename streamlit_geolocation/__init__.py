@@ -19,6 +19,6 @@ else:
     _streamlit_geolocation = components.declare_component("streamlit_geolocation", path=build_dir)
 
 def streamlit_geolocation():
-    loc_string= _streamlit_geolocation(key="loc", default="No Location Info")
+    loc_string= _streamlit_geolocation(key="loc", default={'latitude': None, 'longitude': None, 'altitude': None, 'accuracy': None, 'altitudeAccuracy': None, 'heading': None, 'speed': None})
     return loc_string
 
