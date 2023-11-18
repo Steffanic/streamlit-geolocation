@@ -7,7 +7,7 @@ component_name = "streamlit_geolocation"
 # rm -rf dist/;python3 setup.py sdist bdist_wheel;twine upload dist/*
 setuptools.setup(
     name=component_name,
-    version="0.0.8",
+    version="0.0.10",
     description="A custom Streamlit component to get the users location via js navigator.geolocation.",
     long_description=pathlib.Path('README.md').read_text(),
     long_description_content_type="text/markdown",
